@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <!-- Länkar min css till den här sidan -->
+    <link rel="stylesheet" href="css\index.css">
+</head>
+<body>
+    <!-- En div som sätter allt på sidan i en rad för att få bilden på rätt ställe -->
+    <div class="content">
+        <!-- En div som omringar CV loggan, linjerna och knapparna och sätter dem i en kolumn -->
+        <div class="content_1">
+            <!-- En div som omringar CV loggan och linjerna -->
+            <div class="cv_lines">
+                <!-- En center tag för att centrera CV loggan med linjerna -->
+                <center>
+                    <!-- CV loggan -->
+                    <h1 id="cv">CV</h1>
+                    <br>
+                    <!-- Första linjen -->
+                    <div id="line_1"></div>
+                    <!-- Andra linjen -->
+                    <div id="line_2"></div>
+                </center>
+            </div>
+
+            <!-- En div för alla knappar -->
+            <div class="buttons_column">
+                <!-- En div för att styla hur första knappen ser ut -->
+                <div class="button_frame">
+                    <!-- En a tag för att länka "Om mig" sidan -->
+                    <a href="html\me.html" class="button"><h2 class="button_text">Om mig</h2></a>
+                </div>    
+                <!-- En div för att styla hur andra knappen ser ut -->
+                <div class="button_frame">
+                    <!-- En a tag för att länka "Kurser" sidan -->
+                    <a href="html\courses.html" class="button"><h3 class="button_text">Kurser</h3></a>
+                </div>
+                <!-- En div för att styla hur tredje knappen ser ut -->
+                <div class="button_frame">
+                    <!-- En a tag för att länka "Intressen" sidan -->
+                    <a href="html\interests.html" class="button"><h3 class="button_text">Intressen</h3></a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- En img tag för bilden -->
+        <img src="img\picture_1.png" alt="Ingen bild hittades" id="circle_picture">
+        
+        <!-- En div för att styla "Kontakta mig" knappen -->
+        <div class="form">
+            <!-- En a tag för att länka formulär sidan -->
+            <a href="html\form.html" class="form_link"><h3>Kontakta mig?</h3></a>
+        </div>
+    </div>
+
+    
+    <!-- En center tag för att centrera rutan längst ner på sidan-->
+    <center>
+        <!-- En div för att styla rutan -->
+        <div class="bottom">
+            <!-- En table tag för att göra en tabell -->
+            <table>
+                <!-- En tr tag för att skapa en rad i tabellen -->
+                <tr>
+                    <td>
+                        <!-- En div för att styla mailadressen och loggan -->
+                        <div class="mail">
+                            <!-- En img tag för gmail loggan -->
+                            <img src="img\gmail_logo.png" alt="Ingen bild hittades" width="80" height="80">
+                            <!-- En h1 tag för mailadressen -->
+                            <h1 class="mail_text">viktor.tollmen@gmail.com</h1>
+                        </div>
+                    </td>
+                    <td>      
+                        <!-- En div för att styla telfonnummret och loggan -->                  
+                        <div class="phone">
+                            <!-- En img tag för telefon loggan -->
+                            <img src="img\phone_logo.png" alt="Ingen bild hittades" width="80" height="80">
+                            <!-- En h1 tag för telefonnummret -->
+                            <h1 class="phone_text">+46 76-025 35 89</h1>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </center>
+   
+</body>
+</html>

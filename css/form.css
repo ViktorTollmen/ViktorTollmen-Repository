@@ -1,0 +1,53 @@
+body{
+
+    background-color: #E3E3E3;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.content{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.home{
+
+    margin-right: 400px;
+    display: inline;
+
+}
+
+h2{
+
+    font-family: "calibri";
+    font-size: 30px;
+
+}
+
+.border{
+
+    width: 400px;
+    border: 5px solid black;
+    background-color: #00b9e1;
+    border-radius: 10px;
+
+}
+
+#info{
+
+    width: 300px;
+    height: 100px;
+
+}
+
+.text{
+
+    color: white;
+    font-size: 20px;
+    font-family: "calibri";
+
+}

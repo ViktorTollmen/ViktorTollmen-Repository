@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt formulär</title>¨
+    <!-- Länkar min CSS till sidan -->
+    <link rel="stylesheet" href="..\css\form.css">
+</head>
+<body>
+
+    <!-- En div för att styla hus ikonen(tillbaka knappen) -->
+    <div class="home">
+        <!-- En img tag i en a tag för att länka bilden tillbaka till startsidan -->
+        <a href="..\index.html"><img src="..\img\house.png" width= "100"; height= "100"; alt="Ingen bild hittades"></a>
+    </div>
+
+    <!-- En div för att centrera rubriken och formulären med varandra -->
+    <div class="content">
+
+        <!-- En a tag för rubriken -->
+        <h2>Kontakta mig?</h2>
+
+        <!-- En fieldset tag för att gruppera ihop formulären -->
+        <fieldset class="border">
+            <!-- En form tag för första formuläret -->
+            <form>
+                <!-- En div för att styla texten i första formuläret -->
+                <div class="text">
+                    <label for="firstname"><b>Förnamn</b></label><br>
+                    <input type="text" name="firstname" id="firstname"><br><br>
+                    <label for="lastname"><b>Efternamn</b></label><br>
+                    <input type="text" name="lastname" id="lastname"><br><br>
+                    <label for="mail"><b>Kontaktsätt (mail,telefon, annat)</b></label><br>
+                    <input type="text" name="mail" id="mail"><br>
+                </div>
+            </form>
+
+            <br>
+
+            <!-- En form tag för andra formuläret -->
+            <form>
+                <!-- En div för att styla texten i första formuläret -->
+                <div class="text">
+                    <label><b>Vad angår det?</b></label><br>
+                    <input type="checkbox" name="contact" id="contact">
+                    <label for="contact">Kontakt</label><br>
+                    <input type="checkbox" name="offer" id="offer">
+                    <label for="offer">Arbetserbjudande</label><br>
+                    <input type="checkbox" name="ad" id="ad">
+                    <label for="ad">Reklam</label><br>
+                    <input type="checkbox" name="other" id="other">
+                    <label for="other">Annat</label><br><br>
+
+                    <label for="info"><b>Extra info?</b></label><br>
+                    <textarea type="text" name="info" id="info"></textarea>
+                </div>
+            </form>
+
+            <br>
+
+            <!-- En input tag för submit knappen -->
+            <input type="submit" value="Submit" lang="en">
+        </fieldset><br>
+
+    </div>
+</body>
+</html>
